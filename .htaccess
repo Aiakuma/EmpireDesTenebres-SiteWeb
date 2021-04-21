@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://(www.)?empiredestenebres.go.yo.fr(/)?.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://(www.)?google?.*$ [NC]
+RewriteRule .(gif|jpe?g|png|bmp)$ UI/HOTLINKING.png [L,NC]
