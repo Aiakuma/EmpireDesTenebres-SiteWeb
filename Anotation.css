@@ -1,0 +1,23 @@
+.bulle {
+    position: relative;
+}
+
+.bulle:hover::after,
+.bulle:focus::after {
+    top: -40px;
+    left: 0px;
+    background: none;
+    z-index: 50;
+    position: absolute;
+    content: attr(aria-label);
+    font-family: "Times New Roman";
+    text-align: left;
+    color: #FFF;
+    font-weight: normal;
+    background: #008080;
+    box-shadow: inset 1px 1px 1px 1px #009999, inset -1px -1px 1px 1px #009999;
+    padding: 5px;
+    border: #FFF solid 1px;
+    text-indent: 0;
+    white-space: nowrap;
+}

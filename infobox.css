@@ -1,0 +1,19 @@
+table {
+    float: right;
+    display: flex;
+    table-layout: fixed;
+    background: #004d4d;
+    border-collapse: collapse;
+    border: 1px solid #FFF;
+    margin: 10px;
+}
+
+th {
+    background: #009999;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+}
+
+td {
+    padding: 5px;
+}

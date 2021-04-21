@@ -1,0 +1,188 @@
+/*@font-face {
+    font-family: "empire_des_ténèbres";
+    src: url("Tenexia/empire-des-tenebres.woff");
+}*/
+
+p {
+    font-family: "empire_des_ténèbres", "Times New Roman";
+}
+
+body {
+    margin: auto;
+    padding: 200px;
+    padding-top: 0;
+    background: black;
+    width: 1500px;
+}
+
+.center-div {
+    position: relative;
+    margin: auto;
+}
+
+#maindiv {
+    margin-top: -100px;
+    background-color: #008080;
+    box-shadow: inset 5px 5px 5px 5px #009999, inset -5px -5px 5px 5px #009999;
+    width: 1060px;
+    padding: 20px;
+    padding-top: 100px;
+}
+
+#center {
+    text-align: center;
+}
+
+.wrapper_head {
+    display: grid;
+    grid-template-columns: 15, 100px;
+    grid-gap: 0;
+    grid-template-rows: 4, 100px;
+    width: 1500px;
+    height: auto;
+}
+
+.bouton {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    background: #009999;
+    box-shadow: inset 1px 1px 1px 1px #00FFFF, inset -1px -1px 1px 1px #00FFFF;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 2px;
+}
+
+.icon {
+    padding: 10px;
+}
+
+
+/* 1er Ligne */
+
+.cell_1-1 {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.cell_1-2 {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.cell_1-3 {
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.cell_1-4 {
+    grid-row: 1;
+    grid-column: 4;
+}
+
+.cell_1-5 {
+    grid-row: 1;
+    grid-column: 5;
+}
+
+.cell_1-6 {
+    grid-row: 1;
+    grid-column: 6;
+}
+
+.logo {
+    grid-row: 1/3;
+    grid-column: 7/9;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cell_1-10 {
+    grid-row: 1;
+    grid-column: 9;
+}
+
+.cell_1-11 {
+    grid-row: 1;
+    grid-column: 10;
+}
+
+.cell_1-12 {
+    grid-row: 1;
+    grid-column: 11;
+}
+
+.cell_1-13 {
+    grid-row: 1;
+    grid-column: 12;
+}
+
+.cell_1-14 {
+    grid-row: 1;
+    grid-column: 13;
+}
+
+.cell_1-15 {
+    grid-row: 1;
+    grid-column: 14;
+}
+
+
+/* 3e Ligne */
+
+.cell_3-1 {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.cell_3-2 {
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.cell_3-3 {
+    grid-row: 3;
+    grid-column: 3;
+}
+
+.cell_3-4 {
+    grid-row: 3;
+    grid-column: 4;
+}
+
+.cell_3-5 {
+    grid-row: 3;
+    grid-column: 5;
+}
+
+.hornement {
+    grid-row: 3/4;
+    grid-column: 6/10;
+    z-index: 2;
+}
+
+.cell_3-11 {
+    grid-row: 3;
+    grid-column: 10;
+}
+
+.cell_3-12 {
+    grid-row: 3;
+    grid-column: 11;
+}
+
+.cell_3-13 {
+    grid-row: 3;
+    grid-column: 12;
+}
+
+.cell_3-14 {
+    grid-row: 3;
+    grid-column: 13;
+}
+
+.cell_3-15 {
+    grid-row: 3;
+    grid-column: 14;
+}
